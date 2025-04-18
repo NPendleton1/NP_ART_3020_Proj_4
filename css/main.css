@@ -1,0 +1,12 @@
+/* Place CSS styles here */
+html {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 25px;
+}
