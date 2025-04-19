@@ -1,12 +1,175 @@
-/* Place CSS styles here */
 html {
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Montserrat";
+    background-color:#1a1a1a;
 }
 
-.element{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #1a1a1a;
+    color: rgb(225, 225, 225);
+    padding: 8px;
+    z-index: 1001;
+    transition: top 0.3s;
+}
+.skip-link:focus {
+    top: 20vh;
+  }
+
+.hero-image {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+ h1 {
+    font-weight: 300;
+    font-size: 2rem;
+ }
+
+ .creative{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+ }
+
+.hero-overlay {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50vh;
+    text-align: center;
+    color: rgb(225, 225, 225);
+    width: 90vw;
+}
+
+.logoicon{
+    width: 4rem;
+}
+
+.dflexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: rgb(225, 225, 225);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.featuredpic{
+    width: 11rem;
+    height: 11rem;
+    object-fit: cover;
     border-radius: 25px;
+    
+}
+.portalm{
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 25px;
+    
+}
+
+.featured{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 6rem;
+    color: rgb(30, 30, 30);
+    font-weight: 400;
+}
+
+.featuredcontent{
+    gap: 3rem;
+    background-color: rgb(225, 225, 225);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.alignright{
+    text-align: right;
+}
+
+@media (max-width: 768px){
+    .featuredpic{
+        width: 8rem;
+        height: 8rem;
+        object-fit: cover;
+        border-radius: 25px;
+        
+    }
+    .portalm{
+        width: 15rem;
+        height: 8rem;
+        object-fit: cover;
+        border-radius: 25px;
+        padding-right: 1rem;
+        
+    }
+    
+    .featured{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 1rem;
+        color: rgb(30, 30, 30);
+        font-weight: 400;
+    }
+    
+    .featuredcontent{
+        gap: 2rem;
+        background-color: rgb(225, 225, 225);
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.trimenu{
+    display: flex;
+    background-color:  rgb(225, 225, 225);
+    color: #1a1a1a;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+.trimenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+}
+.trimenu a{
+    color: #1a1a1a;
+}
+
+
+footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color:  rgb(225, 225, 225);
 }

@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Messing Around Page</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>NPendletonCreative</title>
+  <meta name="description" content="This page is a way to display and advertise my creative services">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -20,11 +20,65 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="element" id="el"></div>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <a href="#maincontent" class="skip-link">Skip to main content</a>
+  <header>
+    <div>
+      <img class="hero-image"src="./img/website-hero.jpg" alt="" >
+    </div>
+    <div class="hero-overlay">
+      <h1>Nicholas Pendleton</h1>
+      <p class="creative">CREATIVE</p>
+    </div>
+    <nav id="main-nav" class="main-nav">
+      <div>
+        <img src="img/icon.png" class="logoicon" alt=""></li>
+      </div>
+      <div>
+        socials
+      </div>
+      <div>
+        hmen
+      </div>
+    </nav>
+  </header>
+  <main id="maincontent">
+    <section class="dflexcolumn featuredcontent">
+      <div class="featured">
+        <p>Aerial Photograph</p>
+        <img src="./img/aerial_pic.png" alt="" class="featuredpic">
+      </div>
+      <div class="featured">
+        <img src="./img/sword.png" alt="" class="featuredpic">
+        <p>Sword in the Stone</p>
+      </div>
+      <div class="featured">
+        <p class="alignright">Portal to a Metallic World</p>
+        <img src="./img/portalmetallic.png" alt="" class="portalm">
+      </div>
+    </section>
+    <section class="trimenu">
+      <h2><a href="#">Portfolio</a></h2>
+      <h2><a href="#">Contact</a></h2>
+      <h2><a href="#">About</a></h2>
+
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a href="#">Instagram</a>
+    </div>
+    <p>Designed by Nicholas Pendleton</p>
+  </footer>
+
+
   <script src="js/main.js"></script>
 </body>
 
