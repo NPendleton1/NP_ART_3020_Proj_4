@@ -13,8 +13,7 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="img/icon.png">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -26,28 +25,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="pagewrap">
   <a href="#maincontent" class="skip-link">Skip to main content</a>
-  <header>
+  <header class="headerindex">
     <div>
-      <img class="hero-image"src="./img/website-hero.jpg" alt="" >
+      <img class="hero-image" src="./img/website-hero.jpg" alt="" >
     </div>
     <div class="hero-overlay">
       <h1>Nicholas Pendleton</h1>
-      <p class="creative">CREATIVE</p>
+      <p class="creative">CREATIVE</p> <!--could not get caps in class to work-->
     </div>
-    <nav id="main-nav" class="main-nav">
-      <div>
-        <img src="img/icon.png" class="logoicon" alt=""></li>
-      </div>
-      <div>
-        socials
-      </div>
-      <div>
-        hmen
-      </div>
-    </nav>
+    <div class="socials">
+      <a
+        href="https://www.instagram.com/npendletoncreative/"
+        target="_blank"
+        aria-label="Visit my Instagram">
+      <img
+        src="img/insta_icon.png"
+        alt=""
+        class="social-icon">
+      </a>
+    </div>
   </header>
+  <nav id="main-nav" class="main-nav">
+      <div class="nav-brand">
+        <img src="img/icon.png" alt="" class="logo-icon">
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="About Me.html">About Me</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        &#9776;
+      </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="close-btn" id="closeMenu">&times;</button>
+        <a href="index.html">Home</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="About Me.html">About Me</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+  </nav>
   <main id="maincontent">
     <section class="dflexcolumn featuredcontent">
       <div class="featured">
@@ -62,19 +82,10 @@
         <p class="alignright">Portal to a Metallic World</p>
         <img src="./img/portalmetallic.png" alt="" class="portalm">
       </div>
-    </section>
-    <section class="trimenu">
-      <h2><a href="#">Portfolio</a></h2>
-      <h2><a href="#">Contact</a></h2>
-      <h2><a href="#">About</a></h2>
-
-    </section>
   </main>
 
   <footer>
-    <div>
-      <a href="#">Instagram</a>
-    </div>
+    <p>&#169; 2025 by Nicholas Pendleton</p>
     <p>Designed by Nicholas Pendleton</p>
   </footer>
 

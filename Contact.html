@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <meta name="description" content="Contact Me">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="img/icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="pagewrap">
+  <a href="#maincontent" class="skip-link">Skip to main content</a>
+  <header class="sticky">
+    <nav id="main-nav" class="main-nav">
+        <div class="nav-brand">
+          <img src="img/icon.png" alt="" class="logo-icon">
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="Portfolio.html">Portfolio</a>
+          <a href="About Me.html">About Me</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+          &#9776;
+        </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeMenu">&times;</button>
+          <a href="index.html">Home</a>
+          <a href="Portfolio.html">Portfolio</a>
+          <a href="About Me.html">About Me</a>
+          <a href="Contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main id="maincontent" class="contact-main">
+    <section class="contact-container">
+        <h2>Contact Me</h2>
+        <p>If you’d like to collaborate, request a quote, or just say hello, use the form below!</p>
+
+        <form class="contact-form" action="mailto:your@email.com" method="POST" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+  </main>
+  <footer>
+    <p>&#169; 2025 by Nicholas Pendleton</p>
+    <p>Designed by Nicholas Pendleton</p>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
