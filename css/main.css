@@ -5,11 +5,9 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    height: 100%;
 }
 
 .skip-link {
@@ -400,3 +398,32 @@ footer{
     font-weight: 300;
     font-size: 3rem;
   }
+
+  #pinContainer {
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+    position: relative;
+	}
+	.panel {
+		height: 100vh;
+		width: 100%;
+		position: absolute;
+    top: 0;
+    left: 0;
+	}
+
+  .block {
+    max-width: 300px;
+    background-color: aqua;
+    min-height: 300px;
+  }
+
+  .panel.blue     { background: #3498db; }
+  .panel.turqoise { background: #1abc9c; }
+  .panel.green    { background: #2ecc71; }
+  .panel.bordeaux { background: #8e44ad; }
+  .panel.yellow { background: #f1c40f; }
+  .panel.orange { background: #e67e22; }
+  .panel.red    { background: #e74c3c; }
+  .panel.purple { background: #9b59b6; }
