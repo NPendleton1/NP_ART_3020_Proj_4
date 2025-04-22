@@ -43,10 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   wipeTimeline
-  .fromTo(".panel.turqoise",    { x: "-100%" }, { x: "0%", ease: "none" })
-  .fromTo(".panel.green",       { x: "100%" },  { x: "0%", ease: "none" })
-  .fromTo(".panel.bordeaux",    { y: "-100%" }, { y: "0%", ease: "none" })
-  .fromTo(".panel.yellow",      { x: "-100%" }, { x: "0%", ease: "none" })
-  .fromTo(".panel.orange",      { x: "100%" },  { x: "0%", ease: "none" })
-  .fromTo(".panel.red",         { y: "-100%" }, { y: "0%", ease: "none" })
-  .fromTo(".panel.purple",      { x: "-100%" }, { x: "0%", ease: "none" });
+  .fromTo(".panel.turqoise",    { x: "-110%" }, { x: "0%", ease: "none" })
+  .fromTo(".panel.green",       { x: "110%" },  { x: "0%", ease: "none" })
+  .fromTo(".panel.bordeaux",    { y: "-110%" }, { y: "0%", ease: "none" })
+  .fromTo(".panel.yellow",      { x: "-110%" }, { x: "0%", ease: "none" })
+  .fromTo(".panel.orange",      { x: "110%" },  { x: "0%", ease: "none" })
+  .fromTo(".panel.red",         { y: "-110%" }, { y: "0%", ease: "none" })
