@@ -49,3 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
   .fromTo(".panel.yellow",      { x: "-110%" }, { x: "0%", ease: "none" })
   .fromTo(".panel.orange",      { x: "110%" },  { x: "0%", ease: "none" })
   .fromTo(".panel.red",         { y: "-110%" }, { y: "0%", ease: "none" })
+
+  document.getElementById('hamburger').addEventListener('click', () => {
+    const menu = document.getElementById('mobileMenu');
+    const btn = document.getElementById('hamburger');
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', !expanded);
+  });
+  

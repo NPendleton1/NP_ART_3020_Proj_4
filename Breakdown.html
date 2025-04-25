@@ -26,7 +26,7 @@
 
 </head>
 <body>
-        <nav id="main-nav" class="main-nav">
+        <nav id="main-nav" class="main-nav" aria-label="Main navigation">
             <div class="nav-brand">
               <img src="img/icon.png" alt="" class="logo-icon">
             </div>
@@ -37,9 +37,9 @@
               <a href="Contact.html">Contact</a>
               <a href="Breakdown.html">Breakdown</a>
             </div>
-            <div class="hamburger" id="hamburger">
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
               &#9776;
-            </div>
+            </button>            
           <div class="mobile-menu" id="mobileMenu">
             <button class="close-btn" id="closeMenu">&times;</button>
               <a href="index.html">Home</a>
@@ -49,6 +49,9 @@
               <a href="Breakdown.html">Breakdown</a>
           </div>
         </nav>
+    <div class="portwords" id="Top">
+      <p>Scroll for a scene reconstruction!</p>
+    </div>
     <div id="pinContainer">
         <section class="panel blue">
             <img src="img/Swordweb1good.jpg" class="sizecorrect" alt="">
@@ -73,6 +76,7 @@
         </section>
     </div>
     <footer>
+        <a href="#Top" class="backtotop">Back to Top</a>
         <p>&#169; 2025 by Nicholas Pendleton</p>
         <p>Designed by Nicholas Pendleton</p>
       </footer>

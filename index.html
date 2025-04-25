@@ -1,101 +1,79 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>NPendletonCreative</title>
-  <meta name="description" content="This page is a way to display and advertise my creative services">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="img/icon.png">
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-
-<body class="pagewrap dflexcolumn">
-  <a href="#maincontent" class="skip-link">Skip to main content</a>
-  <header class="headerindex">
-    <div>
-      <img class="hero-image" src="./img/website-hero.jpg" alt="" >
-    </div>
-    <div class="hero-overlay">
-      <h1>Nicholas Pendleton</h1>
-      <p class="creative">CREATIVE</p> <!--could not get caps in class to work-->
-    </div>
-    <div class="socials">
-      <a
-        href="https://www.instagram.com/npendletoncreative/"
-        target="_blank"
-        aria-label="Visit my Instagram">
-      <img
-        src="img/insta_icon.png"
-        alt=""
-        class="social-icon">
-      </a>
-    </div>
-  </header>
-  <nav id="main-nav" class="main-nav sticky">
-      <div class="nav-brand">
-        <img src="img/icon.png" alt="" class="logo-icon">
-      </div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="Portfolio.html">Portfolio</a>
-        <a href="About Me.html">About Me</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Breakdown.html">Breakdown</a>
-      </div>
-      <div class="hamburger" id="hamburger">
-        &#9776;
-      </div>
-    <div class="mobile-menu" id="mobileMenu">
-      <button class="close-btn" id="closeMenu">&times;</button>
-        <a href="index.html">Home</a>
-        <a href="Portfolio.html">Portfolio</a>
-        <a href="About Me.html">About Me</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Breakdown.html">Breakdown</a>
-    </div>
-  </nav>
-  <main id="maincontent">
-    <section class="dflexcolumn featuredcontent">
-      <div class="featured">
-        <p>Aerial Photograph</p>
-        <img src="./img/aerial_pic.png" alt="" class="featuredpic">
-      </div>
-      <div class="featured">
-        <img src="./img/sword.png" alt="" class="featuredpic">
-        <p>Sword in the Stone</p>
-      </div>
-      <div class="featured">
-        <p class="alignright">Portal to a Metallic World</p>
-        <img src="./img/portalmetallic.png" alt="" class="portalm">
-      </div>
-  </main>
-
-  <footer>
-    <p>&#169; 2025 by Nicholas Pendleton</p>
-    <p>Designed by Nicholas Pendleton</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
-  
-  <script src="js/main.js"></script>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <title>NPendletonCreative</title>
+        <meta name="description" content="This page is a way to display and advertise my creative services">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="icon" href="img/icon.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="theme-color" content="#fafafa">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body class="pagewrap dflexcolumn"><a href="#maincontent" class="skip-link">Skip to main content</a>
+        <header class="headerindex" id="Top">
+            <div><img class="hero-image" src="./img/website-hero.jpg" alt=""></div>
+            <div class="hero-overlay">
+                <h1>Nicholas Pendleton</h1>
+                <p class="creative">CREATIVE</p><!--could not get caps in class to work-->
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/npendletoncreative/" target="_blank" aria-label="Visit my Instagram">
+                    <img src="img/insta_icon.png" alt="" class="social-icon">
+                </a>
+            </div>
+        </header>
+          <nav id="main-nav" class="main-nav sticky" aria-label="Main navigation">
+            <div class="nav-brand">
+                <img src="img/icon.png" alt="" class="logo-icon">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="About Me.html">About Me</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Breakdown.html">Breakdown</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu"> &#9776; </button>
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="close-btn" id="closeMenu">&times;</button>
+                <a href="index.html">Home</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="About Me.html">About Me</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Breakdown.html">Breakdown</a>
+            </div>
+        </nav>
+        <main id="maincontent">
+            <section class="dflexcolumn featuredcontent">
+                <div class="featured">
+                    <p>Aerial Photograph</p>
+                    <img src="./img/aerial_pic.png" alt="" class="featuredpic">
+                </div>
+                <div class="featured">
+                    <img src="./img/sword.png" alt="" class="featuredpic">
+                    <p>Sword in the Stone</p>
+                </div>
+                <div class="featured">
+                    <p class="alignright">Portal to a Metallic World</p>
+                    <img src="./img/portalmetallic.png" alt="" class="portalm">
+                </div>
+        </main>
+        <footer>
+            <a href="#Top" class="backtotop">Back to Top</a>
+            <p>&#169; 2025 by Nicholas Pendleton</p>
+            <p>Designed by Nicholas Pendleton</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>

@@ -28,7 +28,7 @@
 <body class="pagewrap dflexcolumn">
   <a href="#maincontent" class="skip-link">Skip to main content</a>
   <header class="sticky">
-    <nav id="main-nav" class="main-nav sticky">
+    <nav id="main-nav" class="main-nav sticky" aria-label="Main navigation">
         <div class="nav-brand">
           <img src="img/icon.png" alt="" class="logo-icon">
         </div>
@@ -39,9 +39,9 @@
           <a href="Contact.html">Contact</a>
           <a href="Breakdown.html">Breakdown</a>
         </div>
-        <div class="hamburger" id="hamburger">
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
           &#9776;
-        </div>
+        </button>        
       <div class="mobile-menu" id="mobileMenu">
         <button class="close-btn" id="closeMenu">&times;</button>
           <a href="index.html">Home</a>
@@ -53,7 +53,7 @@
     </nav>
   </header>
   <main id="maincontent" class="contact-main">
-    <section class="contact-container">
+    <section class="contact-container" id="Top">
         <h2>Contact Me</h2>
         <p>If you’d like to collaborate, request a quote, or just say hello, use the form below!</p>
 
@@ -72,6 +72,7 @@
       </section>
   </main>
   <footer>
+    <a href="#Top" class="backtotop">Back to Top</a>
     <p>&#169; 2025 by Nicholas Pendleton</p>
     <p>Designed by Nicholas Pendleton</p>
   </footer>
