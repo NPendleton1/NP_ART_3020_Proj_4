@@ -306,6 +306,10 @@ footer{
     max-width: 25vw;
     height: auto;
     border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 
 .abouttext{
