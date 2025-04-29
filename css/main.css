@@ -287,6 +287,7 @@ footer{
 .sticky{
     position: sticky;
     top: 0;
+    z-index: 15;
 }
 
 @media (max-width: 768px) {
