@@ -406,6 +406,25 @@ footer{
     overflow-y: hidden;
   }
   
+  .dshow{
+    display: block;
+  }
+
+  .mshow{
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .dshow{
+      display: none;
+    }
+  
+    .mshow{
+      display: block;
+    }
+    
+  }
+
   .portfoliooverlay{
     position: absolute;
     transform: translate(-50%, -50%);
@@ -503,7 +522,8 @@ footer{
   .columnt {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
   .columnt img {
